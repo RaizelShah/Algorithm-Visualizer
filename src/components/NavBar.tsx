@@ -86,7 +86,7 @@ export function NavBar({
 
   return (
     <div className="flex items-center min-h-[4.5rem] border-b shadow-gray-600 sm:px-5 px-0 py-6">
-      <h1 className="lg:flex hidden w-[32%] text-2xl justify-start">
+      <h1 className="lg:flex hidden w-[33%] text-2xl justify-start">
         Pathfinding Visualizer
       </h1>
       <div className="flex items-center lg:justify-between justify-center w-full sm:w-[52rem]">
