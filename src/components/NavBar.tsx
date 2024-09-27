@@ -115,7 +115,8 @@ export function NavBar({
             options={SPEEDS}
             isDisabled={isDisabled}
             onChange={(e) => {
-              setSpeed(parseInt(e.target.value) as SpeedType);
+              const selectedSpeed = Number(e.target.value) as SpeedType;
+              setSpeed(selectedSpeed);
             }}
           />
           <PlayButton
